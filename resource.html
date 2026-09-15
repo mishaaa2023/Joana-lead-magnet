@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17131f">
+  <meta name="description" content="The Boardroom Freedom Map — 5 emergency phrases to never freeze on Zoom again, why you freeze, and the 6-month plan to speak English with power.">
+  <title>Joana's Language Hub — The Boardroom Freedom Map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Joana's Language Hub home">
+        <img src="assets/logo.png" alt="Joana's Language Hub" width="52" height="52">
+        <span>Joana's<br><strong>Language Hub</strong></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <div class="nav-links">
+          <a href="index.html" data-i18n="nav_home">Home</a>
+          <a href="#part1" data-i18n="nav_map">The Map</a>
+        </div>
+        <div class="language-control" aria-label="Language controls">
+          <span class="language-globe" aria-hidden="true">◎</span>
+          <label class="auto-language">
+            <input id="auto-language" type="checkbox" checked>
+            <span data-i18n="language_auto">Auto</span>
+          </label>
+          <select id="language-switcher" aria-label="Choose language">
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+            <option value="es">ES</option>
+            <option value="fr">FR</option>
+          </select>
+        </div>
+        <a href="#book" class="button button-small" data-i18n="nav_book">Book a call <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="resource-hero fade-in" aria-labelledby="resource-title">
+        <div class="resource-hero-inner">
+          <a href="index.html" class="text-link" data-i18n="back_home">← Back to homepage</a>
+          <div class="section-kicker" data-i18n="resource_kicker">Your free gift — 3 pages</div>
+          <h1 id="resource-title" data-i18n="resource_title">The Boardroom Freedom Map</h1>
+          <p class="resource-sub" data-i18n="resource_sub">5 emergency phrases to never freeze on Zoom again and the action plan to stop translating in your head.</p>
+          <div class="chip-row">
+            <span class="chip" data-i18n="chip_1">3 pages</span>
+            <span class="chip" data-i18n="chip_2">5 emergency phrases</span>
+            <span class="chip" data-i18n="chip_3">Read in 10 minutes</span>
+          </div>
+          <p class="resource-intro" data-i18n="resource_intro">A quick guide for professionals who are confident and respected in their native language — but feel stuck the second the meeting switches to English. Keep it on your desk. Use it tomorrow.</p>
+        </div>
+      </section>
+
+      <nav class="toc-bar" aria-label="Map contents">
+        <a href="#part1" data-i18n="part1_kicker">Part 1</a>
+        <a href="#part2" data-i18n="part2_kicker">Part 2</a>
+        <a href="#part3" data-i18n="part3_kicker">Part 3</a>
+        <a href="#recap" data-i18n="toc_summary">Summary</a>
+      </nav>
+
+      <section id="part1" class="part-block" aria-labelledby="part1-title">
+        <div class="part-heading fade-in">
+          <div class="part-kicker" data-i18n="part1_kicker">Part 1</div>
+          <h2 id="part1-title" data-i18n="part1_title">The Meeting Survival Kit</h2>
+          <p data-i18n="part1_intro">What to say in the first 10 seconds when your mind goes blank — or you get asked an unexpected question.</p>
+        </div>
+
+        <div class="scen-explorer" id="scen-explorer">
+          <nav class="scen-nav" id="scen-nav" aria-label="Scenarios">
+            <button class="scen-item active" type="button" data-sc="1">
+              <span class="scen-item-top"><span class="scen-item-label" data-i18n="sc1_label">Scenario 1</span><span class="scen-item-tag" data-i18n="sc1_tag">Surprise question</span></span>
+              <span class="scen-item-title" data-i18n="sc1_title">You get a surprise question and need 10 seconds to think.</span>
+            </button>
+            <button class="scen-item" type="button" data-sc="2">
+              <span class="scen-item-top"><span class="scen-item-label" data-i18n="sc2_label">Scenario 2</span><span class="scen-item-tag" data-i18n="sc2_tag">Slip-up</span></span>
+              <span class="scen-item-title" data-i18n="sc2_title">You realize you just used the wrong word.</span>
+            </button>
+            <button class="scen-item" type="button" data-sc="3">
+              <span class="scen-item-top"><span class="scen-item-label" data-i18n="sc3_label">Scenario 3</span><span class="scen-item-tag" data-i18n="sc3_tag">Missing word</span></span>
+              <span class="scen-item-title" data-i18n="sc3_title">You have the idea — but you forgot the exact English word.</span>
+            </button>
+            <button class="scen-item" type="button" data-sc="4">
+              <span class="scen-item-top"><span class="scen-item-label" data-i18n="sc4_label">Scenario 4</span><span class="scen-item-tag" data-i18n="sc4_tag">Fast talker</span></span>
+              <span class="scen-item-title" data-i18n="sc4_title">Someone speaks too fast and you missed an important detail.</span>
+            </button>
+            <button class="scen-item" type="button" data-sc="5">
+              <span class="scen-item-top"><span class="scen-item-label" data-i18n="sc5_label">Scenario 5</span><span class="scen-item-tag" data-i18n="sc5_tag">Jumping in</span></span>
+              <span class="scen-item-title" data-i18n="sc5_title">You want to interrupt and share your point before the topic changes.</span>
+            </button>
+          </nav>
+          <div class="scen-panel" id="scen-panel" aria-live="polite">
+            <div class="scen-block avoid">
+              <div class="scenario-row-label" data-i18n="label_avoid">What to avoid</div>
+              <p class="scen-text" id="scen-avoid">Sitting in dead silence or saying “Uhhh… wait.”</p>
+            </div>
+            <div class="scen-block say">
+              <div class="scenario-row-label" data-i18n="label_say">What to say</div>
+              <p class="scen-say-phrase" id="scen-say">“That’s an interesting angle. Give me just a second to gather my thoughts on this.”</p>
+            </div>
+            <div class="scen-block why">
+              <div class="scenario-row-label" data-i18n="label_why">Why it works</div>
+              <p class="scen-text" id="scen-why">You buy time while sounding calm, senior and thoughtful — not caught off guard.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="transition-line fade-in" data-i18n="part1_footer">These phrases will save your meeting tomorrow. But memorizing five sentences won't change your career. Here is what is actually happening in your brain when you freeze.</p>
+      </section>
+
+      <section id="part2" class="part-block part-alt" aria-labelledby="part2-title">
+        <div class="part-heading fade-in">
+          <div class="part-kicker" data-i18n="part2_kicker">Part 2</div>
+          <h2 id="part2-title" data-i18n="part2_title">Why You Actually Freeze</h2>
+          <p data-i18n="part2_intro">Why experienced professionals with 15+ years of career experience still feel insecure on international calls.</p>
+        </div>
+        <div class="trap-grid">
+          <article class="trap-card fade-in">
+            <span class="trap-number">01</span>
+            <h3 data-i18n="trap1_title">The 100mph Translation Trap</h3>
+            <p data-i18n="trap1_desc">In your native language your thoughts are fast and complex. When you switch to English, you try to translate every thought word-for-word. Your brain overloads, runs out of memory — and your voice locks up.</p>
+          </article>
+          <article class="trap-card fade-in">
+            <span class="trap-number">02</span>
+            <h3 data-i18n="trap2_title">The Perfection Fever</h3>
+            <p data-i18n="trap2_desc">You're an expert at work. You hate looking silly or unprepared. So your brain says: “If you can't say it perfectly, don't say it at all.” You stay silent, nod, and let someone else take the credit for the deal because they speak faster.</p>
+          </article>
+          <article class="trap-card fade-in">
+            <span class="trap-number">03</span>
+            <h3 data-i18n="trap3_title">The Traditional Course Illusion</h3>
+            <p data-i18n="trap3_desc">You think the fix is more grammar rules or YouTube videos. The truth: the more rules you cram in, the more you overthink before opening your mouth. And the more you overthink, the more you freeze.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="part3" class="part-block" aria-labelledby="part3-title">
+        <div class="part-heading fade-in">
+          <div class="part-kicker" data-i18n="part3_kicker">Part 3</div>
+          <h2 id="part3-title" data-i18n="part3_title">From Fear to Leadership in 6 Months</h2>
+          <p data-i18n="part3_intro">The practical roadmap we use in “Your Passport to English Freedom” to unlock your spoken voice.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item fade-in">
+            <span class="phase-kicker" data-i18n="phase1_kicker">Phase 1 · Months 1–2</span>
+            <h3 data-i18n="phase1_title">Activation & mental unblocking</h3>
+            <p data-i18n="phase1_desc">Stop translating in your head. We unlock the vocabulary you already know by removing the fear of judgment. A safe, relaxed environment where mistakes are completely normal.</p>
+          </article>
+          <article class="timeline-item fade-in">
+            <span class="phase-kicker" data-i18n="phase2_kicker">Phase 2 · Months 3–4</span>
+            <h3 data-i18n="phase2_title">Real-work simulations</h3>
+            <p data-i18n="phase2_desc">No school textbooks. We take your actual upcoming slide decks, client negotiations and weekly meetings — and practice them together until speaking becomes second nature.</p>
+          </article>
+          <article class="timeline-item fade-in">
+            <span class="phase-kicker" data-i18n="phase3_kicker">Phase 3 · Months 5–6</span>
+            <h3 data-i18n="phase3_title">Total autonomy & international deals</h3>
+            <p data-i18n="phase3_desc">Learn to lead meetings, handle surprise objections and close deals with foreign clients without preparing every sentence beforehand. You will never need a colleague to translate for you again.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="recap" class="section-block" aria-labelledby="recap-title">
+        <div class="recap-head fade-in">
+          <div class="section-kicker" data-i18n="resource_kicker">Your free gift — 3 pages</div>
+          <h2 id="recap-title" data-i18n="recap_title">Everything you grabbed — in 3 pages.</h2>
+          <p data-i18n="recap_sub">Same kit. Same plan. Now go use it.</p>
+        </div>
+        <div class="recap-grid">
+          <article class="recap-item fade-in">
+            <span aria-hidden="true">01</span>
+            <h3 data-i18n="map_1">Page 1 · The Emergency Kit</h3>
+            <p data-i18n="map_1d">Phrases for the moment your mind goes blank.</p>
+          </article>
+          <article class="recap-item fade-in">
+            <span aria-hidden="true">02</span>
+            <h3 data-i18n="map_2">Page 2 · Why You Freeze</h3>
+            <p data-i18n="map_2d">The real cause in your brain — and the fix.</p>
+          </article>
+          <article class="recap-item fade-in">
+            <span aria-hidden="true">03</span>
+            <h3 data-i18n="map_3">Page 3 · The 6-Month Plan</h3>
+            <p data-i18n="map_3d">Speak with power, stop translating in your head.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="book" class="booking-section section-block" aria-labelledby="book-title">
+        <div class="booking-card fade-in">
+          <div class="section-kicker" data-i18n="book_kicker">Ready?</div>
+          <h2 id="book-title" data-i18n="book_title">Want to apply this map to your career?</h2>
+          <p class="sub-headline" data-i18n="book_sub">Book your free English activation session — a relaxed, one-on-one diagnostic call with Joana. We will evaluate your spoken English, pinpoint where your voice gets stuck under pressure, and map out your custom action plan. Zero sales pressure. No boring grammar tests.</p>
+          <div class="booking-points">
+            <span>✓ <span data-i18n="book_pt1">15 minutes · 1-to-1 on Google Meet</span></span>
+            <span>✓ <span data-i18n="book_pt2">100% confidential (NDA protected)</span></span>
+            <span>✓ <span data-i18n="book_pt3">Clear, actionable feedback on your English</span></span>
+            <span>✓ <span data-i18n="book_pt4">Zero sales pressure</span></span>
+          </div>
+          <p class="sub-headline" data-i18n="book_cta">Select a date & time below</p>
+          <div class="embed-container">
+            <iframe src="https://tidycal.com/joanaslanguagehub/activate-your-english" title="Book an activation call" loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <a class="brand footer-brand" href="index.html" aria-label="Joana's Language Hub home"><img src="assets/logo.png" alt="" width="42" height="42"><span>Joana's <strong>Language Hub</strong></span></a>
+        <p data-i18n="footer_copy">Practical English for people who lead.</p>
+        <div class="footer-links"><a href="https://www.linkedin.com/in/joana-nucci-393654106/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="#" data-i18n="footer_privacy">Privacy</a><a href="#" data-i18n="footer_terms">Terms</a></div>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

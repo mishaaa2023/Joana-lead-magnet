@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17131f">
+  <meta name="description" content="The Boardroom Freedom Map — 5 emergency phrases to never freeze on Zoom again, plus the 6-month plan to stop translating in your head.">
+  <title>Joana's Language Hub — The Boardroom Freedom Map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Joana's Language Hub home">
+        <img src="assets/logo.png" alt="Joana's Language Hub" width="52" height="52">
+        <span>Joana's<br><strong>Language Hub</strong></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <div class="nav-links">
+          <a href="#preview" data-i18n="nav_inside">Inside the map</a>
+        </div>
+        <div class="language-control" aria-label="Language controls">
+          <span class="language-globe" aria-hidden="true">◎</span>
+          <label class="auto-language">
+            <input id="auto-language" type="checkbox" checked>
+            <span data-i18n="language_auto">Auto</span>
+          </label>
+          <select id="language-switcher" aria-label="Choose language">
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+            <option value="es">ES</option>
+            <option value="fr">FR</option>
+          </select>
+        </div>
+        <a href="resource.html#book" class="button button-small" data-i18n="nav_book">Book a call <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow-row">
+            <span class="eyebrow" data-i18n="hero_badge">Free 3-Page Boardroom Map</span>
+            <span class="live-dot"><i></i><span data-i18n="hero_live">100% free</span></span>
+          </div>
+          <h1 id="hero-title" data-i18n="hero_h1">You're a lion in your language. Lead like one in English.</h1>
+          <p class="hero-intro" data-i18n="hero_sub">Get the free Boardroom Map: 5 emergency phrases so you never freeze on Zoom again, exactly why your brain locks up, and the 6-month plan to stop translating in your head.</p>
+          <div class="hero-actions">
+            <a href="resource.html" class="button button-primary" data-i18n="hero_cta">Get the Free Boardroom Map <span aria-hidden="true">↓</span></a>
+            <a href="#vsl" class="text-link" data-i18n="hero_cta2">Watch the message <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack" aria-hidden="true">
+              <span>J</span><span>D</span><span>+</span>
+            </div>
+            <span data-i18n="hero_proof">Practical coaching for people who already know their work.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="vsl" class="vsl-section" aria-labelledby="vsl-title">
+        <div class="vsl-heading">
+          <div>
+            <div class="section-kicker" data-i18n="vsl_kicker">Your next move</div>
+            <h2 id="vsl-title" data-i18n="vsl_title">Watch how this works — in 90 seconds.</h2>
+          </div>
+          <p data-i18n="vsl_sub">A message from Joana on why you freeze — and the 3-page map that changes it.</p>
+        </div>
+
+        <div class="video-container">
+          <button class="video-play-button" id="video-play" type="button" aria-label="Play video">
+            <span class="play-icon" aria-hidden="true">▶</span>
+          </button>
+          <video id="vsl-video" controls preload="metadata" playsinline>
+            <source src="assets/vsl.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="video-caption-dock" aria-live="polite">
+            <span class="caption-language" id="caption-language">EN</span>
+            <p id="caption-text" data-i18n="caption_note">Captions will appear here as the video plays.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="preview" class="section-block preview-section" aria-labelledby="preview-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker" data-i18n="preview_kicker">A quick look inside</div>
+            <h2 id="preview-title" data-i18n="preview_title">Three pages. Zero fluff.</h2>
+          </div>
+          <p data-i18n="preview_intro">Scroll through what's waiting for you — free.</p>
+        </div>
+
+        <div class="preview-tabs" id="preview-tabs">
+          <div class="preview-nav" role="tablist" aria-label="Map pages">
+            <button class="preview-tab active" type="button" data-page="0" role="tab" aria-selected="true">
+              <span>01</span><strong data-i18n="map_1">Page 1 · The Emergency Kit</strong>
+            </button>
+            <button class="preview-tab" type="button" data-page="1" role="tab" aria-selected="false">
+              <span>02</span><strong data-i18n="map_2">Page 2 · Why You Freeze</strong>
+            </button>
+            <button class="preview-tab" type="button" data-page="2" role="tab" aria-selected="false">
+              <span>03</span><strong data-i18n="map_3">Page 3 · The 6-Month Plan</strong>
+            </button>
+          </div>
+          <div class="preview-panel" id="preview-panel" role="tabpanel">
+            <span class="preview-pin" id="preview-pin">01</span>
+            <h3 id="preview-title-line">The Emergency Kit</h3>
+            <p class="preview-desc" id="preview-desc">Phrases for the moment your mind goes blank.</p>
+            <p class="preview-sample" id="preview-sample">“That’s an interesting angle. Give me just a second to gather my thoughts on this.”</p>
+            <a href="resource.html" class="button button-primary" data-i18n="map_cta">Get the free map <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block" aria-labelledby="final-title">
+        <div class="final-card fade-in">
+          <div class="section-kicker" data-i18n="final_kicker">It's yours — free</div>
+          <h2 id="final-title" data-i18n="final_title">Ready to lead like a lion again?</h2>
+          <p class="sub-headline" data-i18n="final_sub">Get the 3-page Boardroom Freedom Map — free. Keep it on your desk. Use it tomorrow.</p>
+          <a href="resource.html" class="button button-primary button-big" data-i18n="map_cta">Get the free map <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <a class="brand footer-brand" href="index.html" aria-label="Joana's Language Hub home"><img src="assets/logo.png" alt="" width="42" height="42"><span>Joana's <strong>Language Hub</strong></span></a>
+        <p data-i18n="footer_copy">Practical English for people who lead.</p>
+        <div class="footer-links"><a href="https://www.linkedin.com/in/joana-nucci-393654106/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="#" data-i18n="footer_privacy">Privacy</a><a href="#" data-i18n="footer_terms">Terms</a></div>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
